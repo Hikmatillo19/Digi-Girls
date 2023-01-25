@@ -1,0 +1,41 @@
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    .contLocat{
+        display: flex;
+        width: 100%;
+        .contact{
+            width: 50%;
+            height: 450px;
+            background-image: url('../../../assets/img/digital__bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            span{
+                display: flex;
+                // align-items: center;
+                padding-bottom: 20px;
+                color: #fff;
+                i{
+                    font-size: 30px;
+                    margin-right: 20px;
+                }
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+        .map{
+            width: 50%;
+            iFrame{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.text__contact{
+    padding: 80px 0 0 90px;
+}

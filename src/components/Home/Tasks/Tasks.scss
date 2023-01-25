@@ -1,0 +1,48 @@
+.tasks__bg {
+    background-image: url(../../../assets/img/tasks__bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+
+.tasks h4 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 28px;
+    margin-bottom: 5px;
+}
+.tasks{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task__card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    li {
+        background: rgba(189, 0, 255, 0.4);
+        backdrop-filter: blur(2px);
+        border-radius: 3.94127px;
+        height: 100px;
+        padding: 5px 20px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}
